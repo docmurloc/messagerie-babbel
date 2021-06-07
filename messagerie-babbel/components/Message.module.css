@@ -1,0 +1,74 @@
+
+.container_received {
+    display: flex; /* or inline-flex */
+    background-color: rgba(228,230,235,255);
+    margin: 0.5vh 1vh;
+    align-self: flex-start;
+    border-radius: 2vh;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80%;
+    min-width: 100px;
+    padding: 0vh 1vh;
+}
+
+.container_received_original {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    max-width: 100%;
+}
+
+.container_received:hover .container_received_original .horizontal {
+    visibility: visible;
+}
+
+.container_received:hover .horizontal {
+    visibility: hidden;
+}
+
+.container_received p {
+    text-align: left;
+    margin-right: 1vh;
+}
+
+.container_sent {
+    background-color:rgb(9,156,249);
+    position: relative;
+    margin: 0.5vh 1vh;
+    align-self: flex-end;
+    border-radius: 2vh;
+    max-width: 80%;
+    min-width: 100px;
+    padding: 0vh 1vh;
+}
+
+.container_sent_original {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    max-width: 100%;
+}
+
+.container_sent:hover .container_sent_original .horizontal {
+    visibility: visible;
+}
+
+.container_sent p {
+    text-align:left;
+    color: white;
+    margin-right: 1vh;
+
+}
+
+
+.horizontal {
+    display: flex; /* or inline-flex */
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+}
+
+.container_sent:hover .horizontal {
+    visibility: hidden;
+}

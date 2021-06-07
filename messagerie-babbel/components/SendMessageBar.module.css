@@ -1,0 +1,36 @@
+
+.container {
+    display: flex; /* or inline-flex */
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-width: 280px;
+    height: 5vh;
+    padding: 1vh 0vh;
+}
+
+.containerMobile {
+    display: flex; /* or inline-flex */
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-width: 280px;
+    height: 8vh;
+    padding: 1vh 0vh;
+}
+
+.container input[type=text] {
+    width: 70%;
+    height: 3vh;
+    border-radius: 3vh;
+    margin: 1vh;
+    background: rgba(243,243,245,255);
+    color: gray;
+
+}
+.containerMobile input[type=text] {
+    width: 70%;
+    height: 4vh;
+    border-radius: 3vh;
+    margin: 1vh;
+}

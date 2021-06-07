@@ -1,0 +1,32 @@
+
+.container {
+    display: flex; /* or inline-flex */
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-width: 290px;
+    padding: 1vh;
+
+    border-radius: 1vh;
+
+}
+
+.containerSelected {
+    display: flex; /* or inline-flex */
+    background-color: rgba(228,230,235,255);
+    border-radius: 1vh;
+
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-width: 290px;
+    padding: 1vh;
+}
+
+.container:hover {
+    background-color: rgba(228,230,235,255);
+}
+
+.imageProfile {
+    border-radius: 20%;
+}

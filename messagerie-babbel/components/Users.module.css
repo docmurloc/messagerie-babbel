@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    min-width: 300px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(228,230,235,255);
+
+    flex: 1;
+
+}
+
+.containerMobile {
+    height: 50vh;
+    min-width: 300px;
+    margin-right: 7vw;
+    background-color: white;
+
+}
+
+.user {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4vh;
+    margin-bottom: 1vh;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgba(228,230,235,255);
+}
+
+.scroll {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    width: 100%;
+
+    height: 93vh;
+
+}
+
+.scrollMobile {
+
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    width: 100%;
+
+    height: 300px;
+
+}
+
+.toggle {
+    z-index: 10;
+    border-radius: 2vh;
+    border-width: 1px;
+}

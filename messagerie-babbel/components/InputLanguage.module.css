@@ -1,0 +1,46 @@
+.container {
+    border-style: solid;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2vh;
+    width: 11vh;
+
+    border-width: 1px;
+
+    background-color: rgb(193,203,209);;
+}
+
+.flagItem {
+    padding: 10px 5px;
+    display: flex;
+    border-radius: 1vh;
+
+    align-items: center;
+
+}
+
+.flagItem:hover {
+    background-color: white;
+
+}
+
+.horizontal {
+    display: flex;
+
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.toggle {
+    margin: 0px;
+    padding: 0px;
+    height: 3vh;
+    width: 15vh;
+    border-radius: 2vh;
+    border-width: 1px;
+    background-color: rgb(193,203,209);
+}
